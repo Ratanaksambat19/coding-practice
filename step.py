@@ -56,7 +56,7 @@ def step(n, row = 0, stair = ''):
 
     if len(stair) <= row:
         stair += '#'
-        # print(stair)
+        
     else:
         stair += ' '
 

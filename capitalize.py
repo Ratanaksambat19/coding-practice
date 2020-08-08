@@ -23,14 +23,14 @@
 #     return [word.capitalize() for word in string.split()]
 # print(capitalize("!443hello world"))
 
-def capitalize(string):
-    word_list = string[0].upper()
-    string = list(string)
-    for idx in range(1, len(string) - 1):
-        if word_list[idx - 1] == " ":
-            word_list += string[idx].upper()
-        else:
-            word_list += string[idx]
-    return word_list
+# def capitalize(string):
+#     word_list = string[0].upper()
+#     string = list(string)
+#     for idx in range(1, len(string) - 1):
+#         if word_list[idx - 1] == " ":
+#             word_list += string[idx].upper()
+#         else:
+#             word_list += string[idx]
+#     return word_list
 
-print(capitalize("hello world python"))
+# print(capitalize("hello world python"))
