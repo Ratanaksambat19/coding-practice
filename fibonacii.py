@@ -22,7 +22,6 @@ def memoize(fn):
     def helper(n):
         if n not in container:
             container[n] = fn(n)
-            print(container)
         return container[n]
     return helper
 def fibonacci(num):
@@ -33,3 +32,4 @@ def fibonacci(num):
 fibonacci = memoize(fibonacci)
 
 print(fibonacci(50))
+
