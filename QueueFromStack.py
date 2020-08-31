@@ -28,9 +28,6 @@ class QueueStack:
     def push(self, elem):
         self.origin_container.push(elem)
 
-    def arr(self):
-        return self.origin_container.show()
-
     def peek(self):
         while self.origin_container.peek():
             self.backup_container.push(self.origin_container.pop())

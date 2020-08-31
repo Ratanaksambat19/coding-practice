@@ -4,7 +4,7 @@ class Queue:
         self.items = []
 
     def isEmpty(self):
-        return self.items == []
+    return self.items == []
 
     def enqueue(self, item):
         self.items.insert(0,item)
